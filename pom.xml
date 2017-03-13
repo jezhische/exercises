@@ -24,7 +24,7 @@
     </properties>
 
     <dependencyManagement>
-        <!--all springEx dependencies -->
+        <!--all com.springEx dependencies -->
         <dependencies>
             <dependency>
                 <groupId>org.springframework</groupId>
