@@ -27,6 +27,9 @@ public class SimpleDate {
         System.out.println(df.format(new Date()));
         System.out.println();
 
+        DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, Locale.ENGLISH);
+        System.out.println("/////////" + dateFormat.format(date));
+
 
         GregorianCalendar calendar = new GregorianCalendar(1970,
                 Calendar.FEBRUARY, 2);
